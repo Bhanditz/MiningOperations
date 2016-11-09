@@ -7,7 +7,7 @@ The whole thing will only require Irrlicht, and shall be compatible with Linux a
 
 Build status on OSX/Linux:
 
-[![Build Status](https://travis-ci.org/sejour-a/dunjoneer.svg?branch=master)](https://travis-ci.org/sejour-a/dunjoneer)
+[![Build Status](https://travis-ci.org/Penguinsuckers/MiningOperations.svg?branch=master)](https://travis-ci.org/Penguinsuckers/MiningOperations)
 
 My code is under MIT license, but:
 
