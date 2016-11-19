@@ -28,6 +28,7 @@ build
 *.exe
 *.out
 *.app
+.idea
 
 # =========================
 # Operating System Files

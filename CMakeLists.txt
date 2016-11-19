@@ -24,9 +24,20 @@ set(CMAKE_CXX_FLAGS_DEBUG   "${CMAKE_CXX_FLAGS} -std=c++11 -o2 -Wall"   )
 set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS}  -std=c++11 -o2" )
 
 set(MINING_OPERATIONS_SOURCE_FILES
-        inih/ini.c
-        inih/INIReader.cpp
-        src/main.cpp)
+        src/inih/ini.c
+        src/inih/INIReader.cpp
+
+        src/main.cpp
+
+        src/objects/IObject.cpp
+        src/objects/items/IItem.cpp
+
+        #Armor
+        src/objects/items/armor/IArmor.cpp
+        src/objects/items/armor/HeadArmor.cpp
+        src/objects/items/armor/ChestArmor.cpp
+        src/objects/items/armor/LegArmor.cpp
+        src/objects/items/armor/FootArmor.cpp)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 

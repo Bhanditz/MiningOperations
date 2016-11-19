@@ -7,9 +7,9 @@
 
 #include <algorithm>
 #include <cctype>
-#include "ini.h"
+#include "../../include/ini.h"
 #include <cstdlib>
-#include "INIReader.hpp"
+#include "inih/INIReader.hpp"
 
 using std::string;
 
