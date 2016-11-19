@@ -42,7 +42,12 @@ set(MINING_OPERATIONS_SOURCE_FILES
         #Tools
         src/objects/items/tools/ITool.cpp
         src/objects/items/tools/Pickaxe.cpp
-        src/objects/items/tools/Sword.cpp)
+        src/objects/items/tools/Axe.cpp
+        src/objects/items/tools/Shovel.cpp
+        src/objects/items/tools/Hoe.cpp
+
+        src/objects/items/tools/Sword.cpp
+        src/objects/items/tools/Bow.cpp)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
