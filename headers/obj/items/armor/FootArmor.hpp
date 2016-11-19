@@ -11,5 +11,4 @@ class FootArmor : public IArmor
 {
 };
 
-
 #endif //MINING_OP_FOOTARMOR_HPP

@@ -11,5 +11,4 @@ class LegArmor : public IArmor
 {
 };
 
-
 #endif //MINING_OP_LEGARMOR_HPP

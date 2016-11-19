@@ -11,5 +11,4 @@ class ChestArmor : public IArmor
 {
 };
 
-
 #endif //MINING_OP_CHESTARMOR_HPP

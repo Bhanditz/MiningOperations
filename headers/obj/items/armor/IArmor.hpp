@@ -9,13 +9,12 @@
 
 /*
  *      Base for armors, all armors type will inherit from
- *      this class. There will be class for armor slots, but
+ *      this class. There will be a class for armor slots, but
  *      not materials: it will be a specification of the object
  */
 
 class IArmor : public IItem
 {
 };
-
 
 #endif //MINING_OP_IARMOR_HPP

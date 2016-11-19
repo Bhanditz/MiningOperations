@@ -37,7 +37,12 @@ set(MINING_OPERATIONS_SOURCE_FILES
         src/objects/items/armor/HeadArmor.cpp
         src/objects/items/armor/ChestArmor.cpp
         src/objects/items/armor/LegArmor.cpp
-        src/objects/items/armor/FootArmor.cpp)
+        src/objects/items/armor/FootArmor.cpp
+
+        #Tools
+        src/objects/items/tools/ITool.cpp
+        src/objects/items/tools/Pickaxe.cpp
+        src/objects/items/tools/Sword.cpp)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 

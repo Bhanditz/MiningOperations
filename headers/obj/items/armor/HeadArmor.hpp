@@ -11,5 +11,4 @@ class HeadArmor : public IArmor
 {
 };
 
-
 #endif //MINING_OP_HEADARMOR_HPP
